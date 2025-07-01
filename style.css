@@ -6,22 +6,23 @@ body {
   padding: 0;
 }
 
+.card {
+  background-color: white;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .perfil {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 20px;
-}
-
-
-.card {
-  background-color: white;
-  max-width: 400px;
-  margin: 100px auto;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #0077b5;
+  margin: 30px auto 10px;
+  display: block;
 }
 
 .social a {
@@ -30,4 +31,5 @@ body {
   color: #0077b5;
   font-weight: bold;
 }
+
 
