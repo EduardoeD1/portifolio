@@ -12,22 +12,33 @@ body {
 }
 
 .perfil {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #0077b5;
+  border: 4px solid #0077b5;
   margin-top: 20px;
 }
 
 .card {
   background-color: white;
-  width: 90%;
-  max-width: 400px;
-  padding: 30px 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 500px;
+  padding: 40px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+}
+
+.card h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .social a {
@@ -35,28 +46,37 @@ body {
   margin: 0 10px;
   color: #0077b5;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .social a:hover {
   color: #005b99;
 }
 
-/* Responsivo: telas menores que 480px */
+/* 📱 Melhorias para celular */
 @media (max-width: 480px) {
   .perfil {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
 
   .card {
-    padding: 20px 15px;
+    padding: 30px 20px;
+  }
+
+  .card h1 {
+    font-size: 1.4rem;
+  }
+
+  .card p {
+    font-size: 1rem;
   }
 
   .social a {
+    font-size: 1rem;
     display: inline-block;
-    margin: 5px;
+    margin: 8px 6px;
   }
 }
-
 
 
