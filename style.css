@@ -35,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 60vh; /* faz o card crescer no celular */
+  min-height: 40vh; /* faz o card crescer no celular */
   justify-content: center; /* centraliza o conteúdo dentro do card */
 }
 
