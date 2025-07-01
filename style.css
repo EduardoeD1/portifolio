@@ -1,18 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  text-align: center;
   margin: 0;
   padding: 0;
-}
-
-.card {
-  background-color: white;
-  max-width: 400px;
-  margin: 30px auto;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
 }
 
 .perfil {
@@ -21,8 +17,17 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #0077b5;
-  margin: 30px auto 10px;
-  display: block;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .social a {
@@ -31,5 +36,27 @@ body {
   color: #0077b5;
   font-weight: bold;
 }
+
+.social a:hover {
+  color: #005b99;
+}
+
+/* Responsivo: telas menores que 480px */
+@media (max-width: 480px) {
+  .perfil {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card {
+    padding: 20px 15px;
+  }
+
+  .social a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
 
 
