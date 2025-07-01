@@ -21,3 +21,11 @@ body {
   color: #0077b5;
   font-weight: bold;
 }
+
+.perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
